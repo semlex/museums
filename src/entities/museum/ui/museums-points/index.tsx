@@ -6,7 +6,8 @@ const museumsLayer: SymbolLayer = {
   type: 'symbol',
   layout: {
     'icon-image': 'museum',
-    'icon-size': 0.8,
+    'icon-size': 0.7,
+    'icon-allow-overlap': true,
   },
 };
 
