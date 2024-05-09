@@ -51,8 +51,6 @@ interface DistrictsPolygonsProps {
 const DistrictsPolygons = ({ data, choropleth }: DistrictsPolygonsProps) => {
   const layer = choropleth === 'population' ? districtsPopulationLayer : districtsMuseumsCountLayer;
 
-  console.log(data);
-
   return (
     <Source type="geojson" data={data}>
       <Layer {...layer} />
