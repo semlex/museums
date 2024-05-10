@@ -14,7 +14,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
         <Container>
           <Toolbar disableGutters>
             <Typography variant="h6">MUSEUMS</Typography>
-            <Stack direction="row" marginLeft={7} gap={3}>
+            <Stack direction="row" marginLeft={{ xs: 3, md: 7 }} gap={3}>
               <Link href="/" style={{ textDecoration: 'none', color: '#fff' }}>
                 <Stack direction="row" gap={1} alignItems="center">
                   <Map />
