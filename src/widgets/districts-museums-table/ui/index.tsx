@@ -4,7 +4,7 @@ const columns: GridColDef[] = [
   { field: 'districtName', headerName: 'Район', flex: 1, sortable: false },
   {
     field: 'museumCount',
-    headerName: 'Количество музеев',
+    headerName: 'Кол-во музеев',
     flex: 1,
   },
 ];
